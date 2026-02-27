@@ -16,6 +16,8 @@
 
   5. Come back to this file by typing :e part7.md
 
+  Answer: Opened help with `:help w` and `:help :e`, switched files with `:e part6.md` and back with `:e part7.md`.
+
 
 ----------------------------------------------------------
 ## Exercise 2:
@@ -33,4 +35,6 @@
   6. Now add a space and the start of an existing file name:  :edit FIL
 
   7. Press <TAB>.  Vim will complete the name (if it is unique).
+
+  Answer: Practiced completion with `CTRL-D` and `<TAB>` from `:e`/`:edit`.
 

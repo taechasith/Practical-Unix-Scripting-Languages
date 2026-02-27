@@ -11,7 +11,7 @@
 
   5. Repeat steps 3 and 4 until the sentence is correct.
 
----> There are a some words fun that don't belong paper in this sentence.
+---> There are some words that don't belong in this sentence.
 
   NOTE: The letter  d  will appear on the last line of the screen as you type
 	it.  Vim is waiting for you to type  w .  If you see another character
@@ -36,9 +36,9 @@
 
   6. Press capital D to delete to the end of the line
 
----> Somebody typed the end of this line twice. end of this line twice.
+---> Somebody typed the end of this line twice.
 
----> Somebody typed the end of this line twice. end of this line twice.
+---> Somebody typed the end of this line twice.
 
 
 ----------------------------------------------------------
@@ -67,7 +67,7 @@
   3. Repeat steps 1 and 2 with a different count to delete the consecutive
      UPPER CASE words with one command.
 
---->  this ABC DE line FGHI JK LMN OP of words is Q RS TUV cleaned up.
+---> this line of words is cleaned up.
 
 
 ----------------------------------------------------------
@@ -79,12 +79,9 @@
   4. Type   2dd   to delete two lines.
 
 --->  1)  Roses are red,
---->  2)  Mud is fun,
---->  3)  Violets are blue,
---->  4)  I have a car,
---->  5)  Clocks tell time,
---->  6)  Sugar is sweet
---->  7)  And so are you.
+--->  2)  Violets are blue,
+--->  3)  Sugar is sweet
+--->  4)  And so are you.
 
 
 ----------------------------------------------------------
@@ -102,5 +99,5 @@
   7. Now type CTRL-R (keeping CTRL key pressed while hitting R) a few times
      to redo the commands (undo the undo's).
 
----> Fiix the errors oon thhis line and reeplace them witth undo.
+---> Fix the errors on this line and replace them with undo.
 

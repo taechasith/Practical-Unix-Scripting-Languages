@@ -10,6 +10,8 @@
 
   4. Go forward in your location history by pressing ctrl+i
 
+  Answer: gg, G, 10G, Ctrl-O, and Ctrl-I navigation practiced.
+
 
 ----------------------------------------------------------
 ## Exercise 2:
@@ -24,7 +26,7 @@
 
   4. To search for a phrase in the backward direction, use  ?  instead of  / .
 
---->  "errroor" is not the way to spell error;  errroor is an error.
+--->  "error" is not the way to spell error; error is an error.
 NOTE: When the search reaches the end of the file it will continue at the
       start, unless the 'wrapscan' option has been reset.
 
@@ -43,6 +45,7 @@ NOTE: When the search reaches the end of the file it will continue at the
   5. Move the cursor to another (,),[,],{ or } and see what  %  does.
 
 ---> This ( is a test line with ('s, ['s ] and {'s } in it. ))
+  Answer: Used % to jump between matching pairs.
 
 
 NOTE: This is very useful in debugging a program with unmatched parentheses!
@@ -59,6 +62,6 @@ NOTE: This is very useful in debugging a program with unmatched parentheses!
   3. Now type  :s/thee/the/g .  Adding the  g  flag means to substitute
      globally in the line, change all occurrences of "thee" in the line.
 
----> thee best time to see thee flowers is in thee spring.
+---> the best time to see the flowers is in the spring.
 
 

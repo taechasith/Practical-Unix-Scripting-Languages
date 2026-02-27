@@ -9,10 +9,12 @@
   3. Now type some text and press <ESC> to exit Insert mode.
 
 ---> After typing  o  the cursor is placed on the open line in Insert mode.
+     I added a line below using o.
 
   4. To open up a line ABOVE the cursor, simply type a capital	O , rather
      than a lowercase  o.  Try this on the line below.
 
+     I added a line above using O.
 ---> Open up a line above this by typing O while the cursor is on this line.
 
 
@@ -30,7 +32,7 @@
 
   5. Use  e  to move to the next incomplete word and repeat steps 3 and 4.
 
----> This li will allow you to pract appendi text to a line.
+---> This line will allow you to practice appending text to a line.
 ---> This line will allow you to practice appending text to a line.
 
 NOTE:  a, i and A all go to the same Insert mode, the only difference is where
@@ -51,7 +53,7 @@ NOTE:  a, i and A all go to the same Insert mode, the only difference is where
 
   4. Repeat the steps to replace the remaining xxx.
 
----> Adding 123 to xxx gives you xxx.
+---> Adding 123 to 456 gives you 579.
 ---> Adding 123 to 456 gives you 579.
 
 
@@ -72,7 +74,7 @@ NOTE:  a, i and A all go to the same Insert mode, the only difference is where
      the next line with  j$  and put the text there with  p .
 
 --->  a) this is the first item.
-      b)
+      b) this is the second item.
 
 
 ----------------------------------------------------------
@@ -91,5 +93,7 @@ NOTE:  a, i and A all go to the same Insert mode, the only difference is where
   5. Now type the search command again and see what happens:  /ignore <ENTER>
 
   6. To disable ignoring case enter:  :set noic
+
+  Answer: Practiced /ignore with n, then :set ic and :set hls is, then :set noic.
 
 

@@ -11,6 +11,8 @@
      will show you a listing of your directory, just as if you were at the
      shell prompt.  Or use  :!dir  if ls doesn't work.
 
+  Answer: Ran :!dir from command-line mode.
+
 
 ----------------------------------------------------------
 ## Exercise 2:
@@ -30,6 +32,8 @@ NOTE: If you were to exit Vim and start it again with  vim TEST , the file
 
   5. Now remove the file by typing (Unix):	 :!rm TEST
 
+  Answer: Wrote file with :w TEST and verified it appears in directory listing.
+
 ----------------------------------------------------------
 ## Exercise 3:
 ----------------------------------------------------------
@@ -46,6 +50,8 @@ NOTE: If you were to exit Vim and start it again with  vim TEST , the file
   5. Vim will write the selected lines to the file TEST.  Use  :!dir  or  :!ls
      to see it.  Do not remove it yet!  We will use it in the next lesson.
 
+  Answer: Selected lines were written using :'<,'>w TEST.
+
 ----------------------------------------------------------
 ## Exercise 4:
 ----------------------------------------------------------
@@ -57,4 +63,6 @@ NOTE: If you were to exit Vim and start it again with  vim TEST , the file
 
   3. To verify that a file was retrieved, cursor back and notice that there
      are now two copies of exercise 3, the original and the file version.
+
+  Answer: Retrieved with :r TEST below cursor line.
 

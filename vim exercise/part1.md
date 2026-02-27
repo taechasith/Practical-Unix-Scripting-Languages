@@ -25,6 +25,8 @@ START
          j             The j key looks like a down arrow.
          v
 
+  Solution path (START -> END): j2lj2l3j3h2j5l3k3l5jh
+
 
 ----------------------------------------------------------
 ## Exercise 2:
@@ -39,6 +41,7 @@ START
   4. Come back, and check that it got saved
 
 --->   
+---> I practiced insert mode and saved with :wq.
 
 
 ----------------------------------------------------------
@@ -53,7 +56,7 @@ START
 
   4. Repeat steps 2 through 4 until the sentence is correct.
 
----> The ccow jumpedd ovverr thhe mooon.
+---> The cow jumped over the moon.
 
 
 ----------------------------------------------------------
@@ -69,8 +72,8 @@ START
   4. Move the cursor to the second line marked ---> and repeat
      steps 2 and 3 to correct this sentence.
 
----> There is some text missing from th
+---> There is some text missing from this line.
      There is some text missing from this line.
----> There is also some text miss
+---> There is also some text missing here.
      There is also some text missing here.
 

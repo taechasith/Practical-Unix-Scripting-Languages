@@ -12,7 +12,7 @@
      It should now match the second line
 
 
----> let x = f(1,2,3);
+---> let x = 1;
 ---> let x = 1;
 
 
@@ -27,7 +27,7 @@
   3. Now remove everything besides print.
      Do this using the   da)   command (delete arround parenthesis)
 
----> print("hello world")
+---> print
 
 
 ----------------------------------------------------------
@@ -42,9 +42,9 @@
 ```js
 let x = 0;
 for (let i=0; i<10; i++) {
-if (f(i)) {
-x += 1;
-}
+  if (f(i)) {
+    x += 1;
+  }
 }
 ```
 
@@ -74,11 +74,11 @@ for (let i=0; i<10; i++) {
   4. Repeat it for the other function calls by pressing period.
 
 ```py
-function_name(1, 2, 3, 4, 5)
-function_name(2, 2, 3, 4, 23)
-function_name(2, 2, 43, 9, 23)
-function_name(2, 83, 7, 9, 23)
-function_name(2, 83, 7, 23, 9)
+other_function(4, 5)
+other_function(4, 23)
+other_function(9, 23)
+other_function(9, 23)
+other_function(23, 9)
 ```
 
 

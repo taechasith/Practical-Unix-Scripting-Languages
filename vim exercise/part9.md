@@ -17,17 +17,17 @@
   7. Repeat step 1-6 but with function f2 instead of f3.
 
 ```py
+def f1():
+  ...
+  ...
+  ...
+
 def f2():
   ...
   ...
   ...
 
 def f3():
-  ...
-  ...
-  ...
-
-def f1():
   ...
   ...
   ...
@@ -50,11 +50,11 @@ def f1():
   4. Delete it by pressing   d   .
 
 ```py
-function_name(1, 2, 3, 4, 5)
-function_name(2, 2, 3, 4, 23)
-function_name(2, 2, 43, 9, 23)
-function_name(2, 83, 7, 9, 23)
-function_name(2, 83, 7, 23, 9)
+other_function(2, 3, 4, 5)
+other_function(2, 3, 4, 23)
+other_function(2, 43, 9, 23)
+other_function(83, 7, 9, 23)
+other_function(83, 7, 23, 9)
 ```
 
 
